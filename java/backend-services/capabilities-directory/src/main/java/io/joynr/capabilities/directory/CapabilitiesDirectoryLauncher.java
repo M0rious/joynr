@@ -66,7 +66,7 @@ public class CapabilitiesDirectoryLauncher {
     private static String dbPort = DEFAULT_DB_PORT;
     static final String GCD_DB_NAME = CapabilitiesDirectoryImpl.PROPERTY_PREFIX + "test.db.name";
     static final String GCD_JPA_PROPERTIES = CapabilitiesDirectoryImpl.PROPERTY_PREFIX + "test.jpa.properties";
-    private static String dbName = "gcd";
+    private static String dbName = "gcd-test";
     private static AtomicBoolean shutdown = new AtomicBoolean(false);
     private static AtomicBoolean started = new AtomicBoolean(false);
     private static int shutdownPort = Integer.parseInt(System.getProperty("joynr.capabilitiesdirectorylauncher.shutdownport",
