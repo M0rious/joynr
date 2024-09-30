@@ -34,7 +34,7 @@
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-			<!-- property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gcd" / -->
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://gcd-db:5432/gcd-test"/>
 			<property name="javax.persistence.jdbc.user" value="gcd" />
 			<property name="javax.persistence.jdbc.password" value="gcd" />
 			<property name="hibernate.show_sql" value = "true" />
